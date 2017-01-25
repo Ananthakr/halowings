@@ -35,11 +35,11 @@ ul li a:hover{
 .bar-menu{
 	cursor:pointer;
 	display: none;
-	width:20px;
-	margin:20px 0 0 20px ;
+	width:50px;
+	margin:50px 0 0 50px ;
 }
 .bar{
-	height:2px;
+	height:4px;
 	width:100%;
 	background-color:white;
 	margin:5px;
@@ -55,6 +55,8 @@ ul li a:hover{
 	}
 	ul li a{
 		text-align:center;
+		font-size:40px;
+		padding:10px;
 	}
 	.bar-menu{
 		display:block;
@@ -71,17 +73,18 @@ ul li a:hover{
 	margin-top:100px;
 }
 .ceglogo{
-	margin-top:130px;
+	margin-top:80px;
 }
 .titlelogo{
 	margin-top: 70px;
-	margin-left:50px;
+	margin-left:200px;
 }
 .logo,.titlelogo,.ceglogo{
 	    max-width: 100%;
     height: auto;
     padding:0;
 }
+
 
 @media screen and (max-width: 824px){
 	body{
