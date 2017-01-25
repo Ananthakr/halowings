@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Halowings'17 | CEG</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/titlelogo.png">
+        <link rel="stylesheet" href="css/top-bar.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|Roboto:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+        <script src="jquery.min.js"></script>
+        <script src="js/zbcanvas.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/fn.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    </head>
+    <body>
+        
+        <script type="text/javascript">
+            // Clock settings
+            var Counter_Settings = {
+                startdate : "25 January 2017 00:00:00 GMT",  // Date the countdown started
+                enddate: "12 February 2017 05:30:00 GMT",    // Countdown end date
+                callback  : function(){
+                    // script to run when countdown is complete (optional)
+                }
+            };
+        </script>
+        
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="preloader-top"></div>
+            <div class="preloader-fill"></div>
+            <div class="preloader-bottom"></div>
+        </div>
+
+        <div class="dark-start bg">
+            <!-- Preload the images used on the page. -->
+            <img src="img/bg.jpg" alt="" />
+            <img src="img/circle_off.png" alt="" />
+            <img src="img/glow.png" alt="" />
+            <img src="img/social_bg.png" alt="" />
+            <img src="img/input.png" alt="" />
+        </div>
+
+        <div>
+        <ul class="xtra-bar">
+            <li><a href="http://www.eventjini.com/halowings2017">Register</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery/index.html">Gallery</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <ul class="top-bar">
+            <li><a href="registration/index.html">Home</a></li>
+            <li><a href="gallery/index.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://www.eventjini.com/halowings2017">Register</a></li>
+        </ul>
+        </div>
+        <div class="bar-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+        </div>
+        
+        <div class="dark-start">
+            <!-- Logo -->
+            <div class="img">
+                <div><img class="logo" src="img/logo.png" width="100px"></div>
+                <div><a href="index.html"><img class="titlelogo" src="img/titlelogo.png" width="200px" ></a></div>
+                <div><img class="ceglogo" src="ceglogo.png" width="150px" ></div>
+            </div><br />
+            <!-- Sub Logo Text -->
+            <div class="title-sub">
+            <p style="font-size:15px;">NCC NAVY CEG in association with<br /><img src="img/mda.png" alt="MDA" style="width:25%;height:25%"></p><br />
+            <h1 class="title">HALOWINGS'17</h1>
+
+            <p class="under-const" style="font-size:15px;">Dyslexia awareness run</p><br />
+            <p class="coe" style="font-size:15px;">Venue : College of Engineering ,Guindy | Anna University<br />12/02/2017  |   5:30am</p>
+            <p class="under-const-sub" style="font-size:15px;">College Of Engineering | NCC NAVY-CEG</p>
+            </div>
+      
+
+        </div>
+
+
+        
+        <!-- Counter -->
+        <div class="clockworks">
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-d"></canvas><p id="c-d">365</p><span>Days</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-h"></canvas><p id="c-h">24</p><span>Hours</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-m"></canvas><p id="c-m">60</p><span>Minutes</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-s"></canvas><p id="c-s">60</p><span>Seconds</span></div>
+        </div>
+        
+        <div class="dark-start">
+            <!-- Social Buttons -->
+            <div class="social">
+                <a href="https://www.facebook.com/events/664647153706539/"><i class="fa fa-facebook"></i></a>
+
+            </div>
+            
+            <!-- Subscribe -->
+            <!--<div class="subscribe">
+                <input type="email" name="" value="" placeholder="Your E-mail here. We never spam." />
+                <button id="subscribe"><span>Subscribe</span></button>
+            </div>-->
+        </div>
+
+    <script>
+            $(document).ready(function(){
+                $(".bar-menu").click(function(){
+                    $(".top-bar").slideToggle();
+                });
+            });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(0, 0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(, 0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(0, 0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+
+}
+ul li{
+	list-style: none;
+	float:right;
+}
+ul li a{
+	display:block;
+	text-decoration: none;
+	color:#2196F3;
+	font-family: 'Open Sans', sans-serif;
+	padding:10px 20px 10px 20px;
+}
+ul li a:hover{
+	background-color:#2196F3;
+	color:white;
+	background: -webkit-linear-gradient(bottom, rgba(144, 202, 249,0), rgba(144, 202, 249,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(144, 202, 249,0), rgba(144, 202, 249,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(144, 202, 249,0), rgba(144, 202, 249,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(144, 202, 249,0), rgba(144, 202, 249,1)); /* Standard syntax (must be last) */
+
+}
+.bar-menu{
+	cursor:pointer;
+	display: none;
+	width:20px;
+	margin:20px 0 0 20px ;
+}
+.bar{
+	height:2px;
+	width:100%;
+	background-color:white;
+	margin:5px;
+}
+.top-bar{display:none;}
+@media screen and (max-width: 600px){
+	ul{
+		display:none;
+	}
+	ul li{
+		float:left;
+		width:100%;
+	}
+	ul li a{
+		text-align:center;
+	}
+	.bar-menu{
+		display:block;
+	}
+}
+
+.img{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	max-width: 100%;
+}
+.logo,.ceglogo{
+	margin-top:100px;
+}
+.ceglogo{
+	margin-top:130px;
+}
+.titlelogo{
+	margin-top: 70px;
+	margin-left:50px;
+}
+.logo,.titlelogo,.ceglogo{
+	    max-width: 100%;
+    height: auto;
+    padding:0;
+}
+
+@media screen and (max-width: 824px){
+	body{
+		width:824px;
+	}
+}
