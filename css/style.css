@@ -69,7 +69,7 @@ body {
 .clockworks {
     width: 824px;
     height: 184px;
-    margin: 90px auto 0;
+    margin: 50px auto 0;
 }
 
 .clock {
@@ -625,7 +625,8 @@ nav li a:hover {
   text-align: center;
    font-family: 'Exo', sans-serif;
    color:white;
-   max-width: 300px;
+   max-width: 700px;
+   letter-spacing:5px;
    height:auto;
    margin:auto;
 
@@ -643,6 +644,33 @@ nav li a:hover {
   margin-left:20px;
 }
 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-family: verdana;
+}
+
+.button5:hover {
+    background-color: #2196F3;
+    color: white;
+}
 
 
 

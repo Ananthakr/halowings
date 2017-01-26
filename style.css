@@ -252,7 +252,7 @@ body {
 
 .top-logo {
     margin: 25px auto 0;
-    font-family: "Oswald";
+    font-family: 'Exo', sans-serif;
     font-weight: 700;
     font-size: 210%;
     color: #fff;
@@ -297,7 +297,7 @@ text-align:justify;
 }
 .under-const-sub1 {
     margin: 10px auto 0;
-    font-family: "Oswald";
+    font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: white;
@@ -307,9 +307,12 @@ text-align:justify;
     width: 100%;
 }
 
-
-
-
+.under-const-sub1 h1{
+  font-family: verdana;
+}
+.under-const-sub{
+    font-family: 'Exo 2', sans-serif;
+}
 
 .social {
     width: 250px;
@@ -814,6 +817,10 @@ nav li a:hover {
   transform: rotate(-45deg);
 }
 
+
+.about{
+  font-family: 'Exo 2', sans-serif; 
+}
 
 
 

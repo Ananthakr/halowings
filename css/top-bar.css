@@ -70,14 +70,14 @@ ul li a:hover{
 	max-width: 100%;
 }
 .logo,.ceglogo{
-	margin-top:100px;
+	margin-top:25px;
 	margin-left:100px;
 }
 .ceglogo{
-	margin-top:80px;
+	margin-top:0px;
 }
 .titlelogo{
-	margin-top: 70px;
+	margin-top: 15px;
 	margin-left:200px;
 }
 .logo,.titlelogo,.ceglogo{
