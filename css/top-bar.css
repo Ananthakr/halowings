@@ -78,7 +78,7 @@ ul li a:hover{
 }
 .titlelogo{
 	margin-top: 15px;
-	margin-left:200px;
+	margin-left:170px;
 }
 .logo,.titlelogo,.ceglogo{
 	    max-width: 100%;
@@ -89,6 +89,6 @@ ul li a:hover{
 
 @media screen and (max-width: 824px){
 	body{
-		width:824px;
+		width:900px;
 	}
 }
