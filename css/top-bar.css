@@ -5,6 +5,7 @@ body{
 ul{
 	margin:0;
 	padding:0;
+	width:100%;
 	overflow: hidden;
     background: -webkit-linear-gradient(bottom, rgba(0, 0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, rgba(0, 0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
@@ -61,6 +62,14 @@ ul li a:hover{
 	.bar-menu{
 		display:block;
 	}
+	.dark-start,.xtra-bar{
+		max-width:100%;
+	}
+}
+@media screen and (max-width: 824px){
+	.dark-start,.xtra-bar{
+		width:824px;
+	}
 }
 
 .img{
@@ -89,6 +98,53 @@ ul li a:hover{
 
 @media screen and (max-width: 824px){
 	body{
-		width:950px;
+		width:100%;
+	}
+	.logo,.ceglogo{
+		display:none;
+	}
+	.title-sub{
+		margin-left:40px;
+	}
+	.titlelogo{
+		margin-left:40px;
 	}
 }
+@media screen and (max-width: 600px){
+	.title-sub{
+		margin-left:-10px;
+	}
+	.sub-ti{
+		margin-left:-30px;
+	}
+	.buttons{
+		margin-left:20px;
+	}
+	.titlelogo{
+		margin-left:-10px;
+	}
+}
+@media screen and (max-width: 424px){
+	.sub-ti{
+		margin-left:-40px;
+	}
+		.title-sub{
+		margin-left:50px;
+	}
+
+}
+@media screen and (max-width: 360px){
+	.title-sub{
+		margin-left:50px;
+	}
+		.sub-ti{
+		margin-left:0px;
+	}
+		.titlelogo{
+		margin-left:55px;
+		max-width:360px;
+		height:auto;
+	}
+	
+}
+
