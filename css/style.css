@@ -134,17 +134,7 @@ body {
     line-height: 47px;
     font-size: 20px;
 }
-@media screen and (max-width:320px){
-  .social {
-    margin-left:80px;
-  }
-  .sub-ti{
-    margin-left:20px;
-  }
-  .titlelogo{
-    margin-left:100px;
-  }
-}
+
 
 .subscribe {
     background-image: url("../img/input.png");

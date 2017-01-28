@@ -73,6 +73,20 @@ ul li a:hover{
     width:130%;
 }
 }
+@media screen and (max-width: 320px){
+.social{
+	padding-left:50px;
+}
+.dark-start{
+	padding-left:50px;
+}
+.sub-ti{
+	margin-left:20px;
+}
+.logoo{
+	padding-left:40px;
+}
+}
 
 @media screen and (max-width: 824px){
 	.dark-start,.xtra-bar{
@@ -80,82 +94,5 @@ ul li a:hover{
 	}
 }
 
-.img{
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	max-width: 100%;
-}
-.logo,.ceglogo{
-	margin-top:25px;
-	margin-left:100px;
-}
-.ceglogo{
-	margin-top:15px;
-}
-.titlelogo{
-	margin-top: 15px;
-	margin-left:170px;
-}
-.logo,.titlelogo,.ceglogo{
-	    max-width: 100%;
-    height: auto;
-    padding:0;
-}
 
-
-@media screen and (max-width: 824px){
-	body{
-		width:100%;
-	}
-	.logo,.ceglogo{
-		display:none;
-	}
-	.title-sub{
-		margin-left:40px;
-	}
-	.titlelogo{
-		margin-left:40px;
-	}
-}
-@media screen and (max-width: 600px){
-	.title-sub{
-		margin-left:-10px;
-	}
-	.sub-ti{
-		margin-left:-30px;
-	}
-	.buttons{
-		margin-left:20px;
-	}
-	.titlelogo{
-		margin-left:-10px;
-	}
-}
-@media screen and (max-width: 424px){
-	.sub-ti{
-		margin-left:-40px;
-	}
-		.title-sub{
-		margin-left:50px;
-	}
-		.titlelogo{
-		margin-left:40px;
-	}
-
-}
-@media screen and (max-width: 360px){
-	.title-sub{
-		margin-left:50px;
-	}
-		.sub-ti{
-		margin-left:0px;
-	}
-		.titlelogo{
-		margin-left:55px;
-		max-width:360px;
-		height:auto;
-	}
-	
-}
 
