@@ -65,7 +65,15 @@ ul li a:hover{
 	.dark-start,.xtra-bar{
 		max-width:100%;
 	}
+
 }
+
+@media screen and (max-width: 375px){
+.top-bar {
+    width:130%;
+}
+}
+
 @media screen and (max-width: 824px){
 	.dark-start,.xtra-bar{
 		width:824px;
@@ -130,6 +138,9 @@ ul li a:hover{
 	}
 		.title-sub{
 		margin-left:50px;
+	}
+		.titlelogo{
+		margin-left:40px;
 	}
 
 }
