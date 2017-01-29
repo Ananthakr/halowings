@@ -84,7 +84,8 @@ ul li a:hover{
 	margin-left:20px;
 }
 .logoo{
-	padding-left:40px;
+	width:330px;
+	box-sizing: border-box;
 }
 }
 
