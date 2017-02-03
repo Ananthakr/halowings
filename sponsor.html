@@ -14,6 +14,32 @@
         <link rel="stylesheet" href="css/top-bar.css">
         <script src="js/fn.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <style>
+
+
+                .container{ width:50%; margin:0 auto; text-align:center}
+                .container img{ width:20%; margin:0 1%;  }
+                .container-bottom{ width:90%; margin:0 auto; text-align:center}
+                .container-bottom img{ width:15%; height:auto; margin:0 1%;  }
+                .footer-content{
+    background-color:black;
+    text-align:center;
+    padding:20px;
+}
+.footer-content a{text-decoration: none;color:blue;font-family: verdana;
+}
+.footer-content{
+    line-height: 10px;
+    background-color:grey;
+}
+.header{text-align: center;color:white;font-size: 30px;}
+@media screen and (max-width:360px){
+    .footer-content{
+        width:111%;
+    }
+}
+
+        </style>
     </head>
     <body>
     <div>
@@ -21,14 +47,14 @@
             <li><a href="http://www.eventjini.com/halowings2017">Register</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="sponsor.html">Sponsors</a></li>
+            <li><a href="gallery/sponsor.html">Sponsors</a></li>
             <li><a href="gallery/index.html">Gallery</a></li>
             <li><a href="index.html">Home</a></li>
         </ul>
         <ul class="top-bar">
             <li><a href="index.html">Home</a></li>
             <li><a href="gallery/index.html">Gallery</a></li>
-            <li><a href="sponsor.html">Sponsors</a></li>
+            <li><a href="gallery/sponsor.html">Sponsors</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="http://www.eventjini.com/halowings2017">Register</a></li>
@@ -39,25 +65,29 @@
                 <div class="bar"></div>
                 <div class="bar"></div>
         </div>
-
-    <h1 class="top-logo" style="letter-spacing:10px;">HALO&nbsp;WINGS'17</h1>
+  <h1 class="top-logo" style="letter-spacing:10px;">HALO&nbsp;WINGS'17</h1>
             <!-- Sub Logo Text -->
             <p class="under-const">Dyslexia awareness run</p>
                         <p class="under-constt">Venue : College of Engineering,Guindy | Anna University<br><br>12/02/2017  |   5:30am</p><br><br><br>
-         <div style="color:white;margin-left:50px;font-family:Sans-serif">  
-          <strong><h3 style="color:orange;font-size:30px;">Contact:</h3><br><br></strong>
-           <div style="margin-left:15%;">
-          <p> Rahul Raj.S   -9952452601</p><br>
-           <p>Vedhachalam.B -8608654401</p><br>        
-           <p>Kalaiarasan.K -8300146898</p><br>
-           <p>Manikandan.K  -9087940703</p><br>
-            </div><br>
-    <div style="margin-left:15%;">
-   <img src="fb.png" style="width:30px;height:25px">
-    <a href="https://www.facebook.com/nccnavy.ceg" style="text-decoration:none;color:white;"target="_blank"><span>www.facebook.com/nccnavy.ceg</span></a><br><br>
-   <img src="gmail.png" style="widht:50px;height:30px">
-    <span>halowings_ceg@yahoo.co.in</span></div>
-   </div>
+                        <h1 class="header">SPONSORS</h1><br />
+<div class="container">
+        <img src="img/sp1.png">
+        <img src="img/sp2.jpg">
+        <img src="img/sp3.png">
+</div><br /><br /><br />
+<div class="container-bottom">
+        <img src="img/sp4.png" width="40px">
+        <img src="img/sp5.png"  width="40px">
+        <img src="img/sp6.png" width="40px">
+        <img src="img/sp7.png"  width="40px">
+</div><br \>
+    <footer>
+            <div class="footer-content">
+                    <p>Privacy Policy | Contact INDIA</p><br />
+                    <p>Copyright © Halowings 2017. All rights are reserved.</p><br />
+                    <small><p>designed by <i><b>Halo Wings Team</b></i></p></small>
+            </div>
+    </footer>
        <script>
             $(document).ready(function(){
                 $(".bar-menu").click(function(){
